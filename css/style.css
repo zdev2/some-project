@@ -1,0 +1,156 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 2rem 2rem;
+}
+
+h1 {
+  font-size: 128px;
+}
+p {
+  padding: 0.5rem 0;
+  margin: 0 1.7rem;
+}
+p > a {
+  text-decoration: none;
+  color: black;
+  font-size: 21px;
+  padding: 0.5rem;
+  margin: 0 -0.5rem;
+  -webkit-transition: all 0.15s;
+  -moz-transition: all 0.15s;
+  -ms-transition: all 0.15s;
+  -o-transition: all 0.15s;
+  transition: all 0.15s;
+}
+p:hover > a {
+  background-color: rgb(254, 255, 166);
+}
+h2 {
+  margin: 0 1.7rem;
+  font-size: 48px;
+}
+.secondary-button {
+  width: 10rem;
+  height: 3rem;
+  margin: 0 0 0 1rem;
+  font-size: 18px;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(255, 226, 145);
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.secondary-button:hover {
+  background-color: rgb(255, 198, 43);
+  width: 11rem;
+  height: 4rem;
+  font-size: 24px;
+}
+
+button,
+.button {
+  width: 10rem;
+  height: 3rem;
+  margin: 1.7rem;
+  font-size: 18px;
+  background-color: rgb(255, 226, 145);
+  border: 0;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.button {
+  margin: 0rem;
+}
+button:hover,
+.button:hover {
+  background-color: rgb(255, 198, 43);
+  width: 11rem;
+  height: 4rem;
+  font-size: 24px;
+}
+
+form {
+  margin: 0 1.7rem;
+  display: flex;
+  flex-direction: column;
+}
+.input {
+  width: 20rem;
+  height: 2rem;
+}
+.options {
+  margin: 0.5rem 0;
+}
+
+img,
+video {
+  width: 80vw;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+td {
+  padding: 0.5rem 0;
+  border: 2px solid rgb(236, 236, 236);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+td:hover {
+  background-color: rgb(255, 255, 216);
+}
+.bing:hover {
+  background-color: rgb(211, 255, 255);
+}
+.agama:hover {
+  background-color: rgb(230, 211, 255);
+}
+.rpl:hover {
+  background-color: rgb(227, 255, 211);
+}
+.bbali:hover {
+  background-color: rgb(211, 226, 255);
+}
+.bindo:hover {
+  background-color: rgb(250, 211, 255);
+}
+.pkn:hover {
+  background-color: rgb(255, 211, 211);
+}
+.sejarah:hover {
+  background-color: rgb(211, 237, 255);
+}
+.dg:hover {
+  background-color: rgb(255, 234, 211);
+}
+.matik:hover {
+  background-color: rgb(219, 211, 255);
+}
+.pkkwu:hover {
+  background-color: rgb(211, 255, 237);
+}
+.p5:hover {
+  background-color: rgb(242, 255, 211);
+}

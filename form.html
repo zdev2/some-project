@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome!</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="media/apple.jpg" type="image/jpg" />
+  </head>
+  <body>
+    <h1>Data Diri</h1>
+    <p><a href="/index.html">Kembali</a></p>
+    <br />
+    <form method="get">
+      <label for="nama_depan">Nama Depan:</label>
+      <input type="text" id="nama_depan" name="nama_depan" class="input" />
+      <br />
+      <label for="nama_belakang">Nama Belakang:</label>
+      <input
+        type="text"
+        id="nama_belakang"
+        name="nama_belakang"
+        class="input"
+      />
+      <br />
+      <h3>Pilih Provinsi:</h3>
+      <br />
+      <div class="options">
+        <input type="checkbox" name="provinsi" id="bali" value="Bali" /><label
+          for="bali"
+        >
+          Bali</label
+        >
+      </div>
+      <div class="options">
+        <input type="checkbox" name="provinsi" id="ntt" value="NTT" /><label
+          for="ntt"
+        >
+          NTT</label
+        >
+      </div>
+      <div class="options">
+        <input type="checkbox" name="provinsi" id="papua" value="Papua" /><label
+          for="papua"
+        >
+          Papua</label
+        >
+      </div>
+      <div class="options">
+        <input
+          type="checkbox"
+          name="provinsi"
+          id="jawa_timur"
+          value="Jawa Timur"
+        /><label for="jawa_timur"> Jawa Timur</label>
+      </div>
+      <div class="options">
+        <input
+          type="checkbox"
+          name="provinsi"
+          id="kalimantan"
+          value="Kalimantan"
+        /><label for="kalimantan"> Kalimantan</label>
+      </div>
+      <br />
+      <label for="email">Alamat Email: </label
+      ><input type="email" name="email" id="email" class="input" />
+      <br />
+      <label for="password">Password: </label>
+      <input type="password" name="password" id="password" class="input" />
+      <br />
+      <label for="kota">Pilih Kota: </label>
+      <select name="kota" id="kota" class="input">
+        <option value="pilih">Pilih</option>
+        <option value="denpasar">Denpasar</option>
+        <option value="jogja">Jogja</option>
+        <option value="jakarta">Jakarta</option>
+        <option value="mataram">Mataram</option>
+      </select>
+      <br />
+      <div class="buttons">
+        <input type="submit" name="submit" value="Submit" class="button" />
+        <input
+          type="reset"
+          name="reset"
+          value="Reset"
+          class="secondary-button"
+        />
+      </div>
+    </form>
+  </body>
+</html>
